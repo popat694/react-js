@@ -1,0 +1,11 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "info": rgb(255, 38, 0),
+    "danger": rgb(44, 70, 70),
+    "primary":rgb(9, 1, 122)
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
